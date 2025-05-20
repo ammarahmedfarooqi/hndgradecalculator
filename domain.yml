@@ -1,0 +1,20 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - ask_grades
+  - ask_education
+  - bot_challenge
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you with education or grades today?"
+  utter_goodbye:
+    - text: "Goodbye! Feel free to ask anytime."
+  utter_ask_grades:
+    - text: "You can check your grades through your school portal or ask your teacher."
+  utter_ask_education:
+    - text: "What do you want to know about education? Exams, courses, or study tips?"
+  utter_iamabot:
+    - text: "I am a bot created to help you!"

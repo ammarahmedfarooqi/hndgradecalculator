@@ -1,0 +1,22 @@
+version: "3.1"
+
+stories:
+- story: greet path
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: goodbye path
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: ask about grades
+  steps:
+  - intent: ask_grades
+  - action: utter_ask_grades
+
+- story: ask about education
+  steps:
+  - intent: ask_education
+  - action: utter_ask_education

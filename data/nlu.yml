@@ -1,0 +1,28 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey there
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+
+- intent: ask_grades
+  examples: |
+    - How can I check my grades?
+    - What is my grade in math?
+    - Show me my exam results
+    - Where do I find my grades?
+
+- intent: ask_education
+  examples: |
+    - Tell me about the education system
+    - What courses do I need to take?
+    - Any tips for studying?
+    
